@@ -1,20 +1,20 @@
-# plumdo-spring-cloud
+# spring-cloud-demo
 
 
 ```
-Spring-cloudµÄdemoÏîÄ¿£º
+spring-cloudçš„demoé¡¹ç›®ï¼š
 
-plumdo-cloud-register£º·şÎñ×¢²áÖĞĞÄ£¬¶Ë¿Ú£º1111
-plumdo-cloud-config£ºÅäÖÃÖĞĞÄ£¬¶Ë¿Ú£º7001
-plumdo-cloud-service£º·şÎñÌá¹©Õß£¬¶Ë¿Ú£º2222£¬2111
-plumdo-cloud-consumer£º·şÎñÏû·ÑÕß£¬¶Ë¿Ú£º3333
-plumdo-cloud-zuul£º·şÎñÍø¹Ø£¬¶Ë¿Ú£º5555
-
-```
-
+plumdo-cloud-registerï¼šæœåŠ¡æ³¨å†Œä¸­å¿ƒï¼Œç«¯å£ï¼š1111
+plumdo-cloud-configï¼šé…ç½®ä¸­å¿ƒï¼Œç«¯å£ï¼š7001
+plumdo-cloud-serviceï¼šæœåŠ¡æä¾›è€…ï¼Œç«¯å£ï¼š2222ï¼Œ2111
+plumdo-cloud-consumerï¼šæœåŠ¡æ¶ˆè´¹è€…ï¼Œç«¯å£ï¼š3333
+plumdo-cloud-zuulï¼šæœåŠ¡ç½‘å…³ï¼Œç«¯å£ï¼š5555
 
 ```
-Æô¶¯Ë³Ğò£º
+
+
+```
+å¯åŠ¨é¡ºåºï¼š
 plumdo-cloud-register
 plumdo-cloud-config
 plumdo-cloud-service
@@ -24,27 +24,27 @@ plumdo-cloud-zuul
 ```
 
 ```
-²âÊÔ·ÃÎÊµØÖ·£º
+æµ‹è¯•è®¿é—®åœ°å€ï¼š
 
-·ÃÎÊ×¢²áÖĞĞÄ£º
+è®¿é—®æ³¨å†Œä¸­å¿ƒï¼š
 http://localhost:1111/
 
-·ÃÎÊ·şÎñÍø¹Ø£º
+è®¿é—®æœåŠ¡ç½‘å…³ï¼š
 http://localhost:5555/api-a/from?accessToken=ss
 http://localhost:5555/api-a-url/from?accessToken=ss
 
-·ÃÎÊÏû·ÑÕß£º
+è®¿é—®æ¶ˆè´¹è€…ï¼š
 http://localhost:3333/users
 http://localhost:3333/users-feign
 
-·ÃÎÊÌá¹©Õß£º
+è®¿é—®æä¾›è€…ï¼š
 http://localhost:2111/from
 http://localhost:2222/from
 
 ```
 
 ```
-ºóĞø£º
-ÅäÖÃÖĞĞÄ£¬×¢²áÖĞĞÄ»¹ÊÇµ¥µãÅäÖÃ£¬¼ÓÈë·Ö²¼Ê½ÅäÖÃ¡£
-ÅäÖÃÖĞĞÄÏÖÔÚÖ»×öÁËÒ»¸ö²âÊÔ£¬°ÑÈ«²¿ÅäÖÃÍ³Ò»¹ÜÀí¡£
+åç»­ï¼š
+é…ç½®ä¸­å¿ƒï¼Œæ³¨å†Œä¸­å¿ƒè¿˜æ˜¯å•ç‚¹é…ç½®ï¼ŒåŠ å…¥åˆ†å¸ƒå¼é…ç½®ã€‚
+é…ç½®ä¸­å¿ƒç°åœ¨åªåšäº†ä¸€ä¸ªæµ‹è¯•ï¼ŒæŠŠå…¨éƒ¨é…ç½®ç»Ÿä¸€ç®¡ç†ã€‚
 ```
